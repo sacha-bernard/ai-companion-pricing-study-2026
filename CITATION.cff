@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the DOI below."
+type: dataset
+title: "Pricing and subscription transparency of AI companion apps: 20 platforms observed on 1 November 2026"
+version: "1.0"
+date-released: 2026-11-01
+doi: 10.7910/DVN/N4NPYF
+license: CC-BY-4.0
+url: "https://www.webandreview.com/dating/ai-companion-pricing-study-2026/"
+repository: "https://doi.org/10.7910/DVN/N4NPYF"
+identifiers:
+  - type: doi
+    value: 10.7910/DVN/N4NPYF
+    description: "Harvard Dataverse (record of reference)"
+  - type: doi
+    value: 10.5281/zenodo.23866139
+    description: "Zenodo mirror, same files"
+keywords:
+  - AI companion
+  - chatbot
+  - subscription
+  - pricing transparency
+  - automatic renewal
+  - cancellation
+  - refund policy
+  - consumer protection
+  - age verification
+  - in-app currency
+authors:
+  - family-names: Bernard
+    given-names: Sacha
+    affiliation: Webandreview
+    orcid: "https://orcid.org/0009-0008-1350-0334"
