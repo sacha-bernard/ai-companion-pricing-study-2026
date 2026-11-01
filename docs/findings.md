@@ -1,6 +1,6 @@
 # Findings: pricing and subscription transparency of 20 AI companion apps (observed 2026-11-01)
 
-All figures below are computed by `work/findings.py` from `out/dataset.csv`. Prices are as displayed, in the currency the site showed from Belgium without a VPN. Monthly equivalents divide annual totals by 12.
+All figures below are computed by `scripts/findings.py` from `data/dataset.csv`. Prices are as displayed, in the currency the site showed from Belgium without a VPN. Monthly equivalents divide annual totals by 12.
 
 ## Aggregate statistics
 
