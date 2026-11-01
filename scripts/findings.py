@@ -1,8 +1,8 @@
-"""Computes aggregate statistics from out/dataset.csv and writes out/findings.md (numbers only, no judgement)."""
-import csv, os, re, io, sys, statistics
+"""Computes aggregate statistics from data/dataset.csv and writes docs/findings.md (numbers only, no judgement)."""
+import csv, os, os, re, io, sys, statistics
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-rows = list(csv.DictReader(open('../out/dataset.csv', encoding='utf-8')))
+rows = list(csv.DictReader(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'dataset.csv'), encoding='utf-8')))
 n = len(rows)
 def share(pred):
     k = sum(1 for r in rows if pred(r)); return k, round(100*k/n)
@@ -50,7 +50,7 @@ def fmt(t): return f'{t[0]} of {n} ({t[1]}%)'
 lines = []
 lines.append('# Findings: pricing and subscription transparency of 20 AI companion apps (observed 2026-11-01)')
 lines.append('')
-lines.append('All figures below are computed by `work/findings.py` from `out/dataset.csv`. Prices are as displayed, in the currency the site showed from Belgium without a VPN. Monthly equivalents divide annual totals by 12.')
+lines.append('All figures below are computed by `scripts/findings.py` from `data/dataset.csv`. Prices are as displayed, in the currency the site showed from Belgium without a VPN. Monthly equivalents divide annual totals by 12.')
 lines.append('')
 lines.append('## Aggregate statistics')
 lines.append('')
@@ -111,5 +111,5 @@ obs.append(f'9. {crypto[0]} apps accept cryptocurrency and Kupid AI accepted onl
 obs.append(f'10. Card checkouts were unreachable for {proc_nobs[0]} apps because registration was rejected, blocked by a bot check, or the verification email arrived after the link expired; their rows keep the public pricing and terms with the reason recorded in each cell.')
 lines += obs
 lines.append('')
-open('../out/findings.md', 'w', encoding='utf-8').write('\n'.join(lines))
+open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'docs', 'findings.md'), 'w', encoding='utf-8').write('\n'.join(lines))
 print('\n'.join(lines))
