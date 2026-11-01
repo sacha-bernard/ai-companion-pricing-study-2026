@@ -1,11 +1,11 @@
-"""Consistency checks for out/dataset.csv.
+"""Consistency checks for data/dataset.csv.
 Checks: 20 rows, no empty cell, enumerated values, ISO date, cheapest_monthly and
 annual_discount_pct consistent with the plans column where both are numerically derivable.
 Exit code 1 on any failure."""
-import csv, re, os, sys, io
+import csv, os, re, os, sys, io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-rows = list(csv.DictReader(open('../out/dataset.csv', encoding='utf-8')))
+rows = list(csv.DictReader(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'dataset.csv'), encoding='utf-8')))
 errors, warns = [], []
 if len(rows) != 20:
     errors.append(f'row count {len(rows)} != 20')
