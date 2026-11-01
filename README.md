@@ -49,7 +49,7 @@ Prices are those displayed on the observation day in the currency served to a vi
 
 Bernard, S. (2026). *Pricing and subscription transparency of AI companion apps: 20 platforms observed on 1 November 2026* (Version 1.0) [Data set]. Webandreview. Harvard Dataverse. https://doi.org/10.7910/DVN/N4NPYF
 
-See [`CITATION.cff`](CITATION.cff). Related study by the same author: *How to cancel a dating subscription in Switzerland: 18 platforms compared (2026)*, https://doi.org/10.5281/zenodo.23036874.
+See [`CITATION.cff`](CITATION.cff).
 
 ## Licence
 
