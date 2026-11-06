@@ -1,14 +1,12 @@
 # Pricing and subscription transparency of AI companion apps (2026)
 
-[![DOI](https://img.shields.io/badge/DOI-10.7910%2FDVN%2FN4NPYF-blue.svg)](https://doi.org/10.7910/DVN/N4NPYF)
 [![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.23866139.svg)](https://doi.org/10.5281/zenodo.23866139)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 What does an AI companion app tell you about its prices, credits, automatic renewal, refunds and age checks before you pay? This dataset compares 20 consumer AI companion apps, general audience and adult-oriented, observed on one day (1 November 2026) from Belgium: public pages, one free account per app where e-mail registration was possible, and the upgrade flow up to the screen that collects a payment method. No payment was made.
 
 - **Full study with charts:** https://www.webandreview.com/dating/ai-companion-pricing-study-2026/
-- **Archived version (DOI):** https://doi.org/10.7910/DVN/N4NPYF (Harvard Dataverse)
-- **Mirror:** https://doi.org/10.5281/zenodo.23866139 (Zenodo, same files)
+- **Archived version (DOI):** https://doi.org/10.5281/zenodo.23866139 (Zenodo)
 - **Data (CSV):** [`data/dataset.csv`](data/dataset.csv), 20 rows, 36 columns
 - **Codebook:** [`docs/codebook.md`](docs/codebook.md)
 
@@ -47,7 +45,7 @@ Prices are those displayed on the observation day in the currency served to a vi
 
 ## Citation
 
-Bernard, S. (2026). *Pricing and subscription transparency of AI companion apps: 20 platforms observed on 1 November 2026* (Version 1.0) [Data set]. Webandreview. Harvard Dataverse. https://doi.org/10.7910/DVN/N4NPYF
+Bernard, S. (2026). *Pricing and subscription transparency of AI companion apps: 20 platforms observed on 1 November 2026* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23866139
 
 See [`CITATION.cff`](CITATION.cff).
 
