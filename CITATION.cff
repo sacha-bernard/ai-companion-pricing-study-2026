@@ -4,17 +4,14 @@ type: dataset
 title: "Pricing and subscription transparency of AI companion apps: 20 platforms observed on 1 November 2026"
 version: "1.0"
 date-released: 2026-11-01
-doi: 10.7910/DVN/N4NPYF
+doi: 10.5281/zenodo.23866139
 license: CC-BY-4.0
 url: "https://www.webandreview.com/dating/ai-companion-pricing-study-2026/"
-repository: "https://doi.org/10.7910/DVN/N4NPYF"
+repository: "https://doi.org/10.5281/zenodo.23866139"
 identifiers:
   - type: doi
-    value: 10.7910/DVN/N4NPYF
-    description: "Harvard Dataverse (record of reference)"
-  - type: doi
     value: 10.5281/zenodo.23866139
-    description: "Zenodo mirror, same files"
+    description: "Zenodo (record of reference)"
 keywords:
   - AI companion
   - chatbot
